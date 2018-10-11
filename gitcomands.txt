@@ -1,0 +1,50 @@
+#change directories (2 ".." Goes backwards, 3 "..." Goes to the beginning) 
+cd ""
+
+#create a folder 
+mkdir
+ 
+
+#create a file
+touch filename 
+
+#create a hidden file:
+.nameoffile 
+
+# see all files including hidden files:
+ls -a 
+
+
+
+GIT
+
+#create a git repository
+git init 
+
+# first prep the changes with...
+git add .
+
+# commit the changes to the repository:
+git commit -m "Name of the commit" 
+
+#see the status and possible changes to commit:
+git status
+
+# see the log of all the changes:
+git log 
+
+#push files on GitHub
+git remote add origin "GitHub repository name, get by making a new repository and copying the link". 
+
+# push a git project onto Github
+git push -u origin master 
+
+# create a branch:
+git branch nameofbranch 
+
+# see the list of branches:
+git branch 
+
+# change branch:
+git checkout nameofbranch 
+
